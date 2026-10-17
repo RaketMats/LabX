@@ -35,6 +35,13 @@ Describe how the physical space is fundamental for helping out with the complex 
 Inspiration comes mainly from fashion studios mainly because of it covering everytning from skecthes to material supplies and store rooms, and prototype production with sewing machines, and a stage area where users can interact with prototypes showcased on a model.  
 The prompt copy is an integral part. The overall design thing also consists of physical space, horisontal for work and vertical for radiation and building knowledge together.  
 
+# The next approach - the Flipped Perspective
+<descriptive> Describe the design approach of not planning ahead, instead flipping the perspective and continously judge according to Helpers and Tools, such as 'the Yardstick' and 'the Touchstone'.  
+An important concept here is a clear distinction that separates project work from design work.  
+
+
+# The next approach - the Overlays
+<descriptive> Describe the approach of always start and always have in focus, the user and the domain perspective, one form is 'Reality' in Cool. Keep this and behind the scenes, add the designer perspective via 'Overlays' and again, different tools 'the Yardstick' and 'the Touchstone' and different architectural patterns and templates. The basic artefact can be a snapshot from users domain, or a short video clip, or an existing product, or a more formal model. But, underneath and behind the scenes tehre is another representation with all the architectural, system development approaches, e.g. an ABCDesEnt-pattern.  
 
 
 # Practical details
