@@ -21,6 +21,21 @@ So, what we aim to do here is to build upono experience from drama productions u
 Also, about re-framings and frameworks.  
 Design problem again, how to present understandable for readers.  
 
+# The next approach - The Prompt Copy
+In drama production the concept of a 'prompt copy' aka 'the book' is fundamental. Practically it is a binder, often in landscape format, with the script, including actors and brief descriptions of a scene, and on the right, descrptions of how this scene, this dialogue is to be 'gestalted'. It can be how actors move on a stage, props, ligthing, scenery details, shooting ideas etc.  
+In system developments this is both a requirements and a design specifications, and on steroids. Here we can start out with formal requirements or use-cases to the left but to the right, add whatever needed to clarify, further specify.  
+And, whereas in a drama production, the script is given and more or less fixed, in system developments we normally just have contours, a rough idea of buisness idea and users and what they want. This is therefore the main artefact for a design driven approach. The concept of loose leafs in a binder, naturlaly this can be a digital version, makes it possible to start with what we got and then elaborate, both filling in the use cases, or actually the problem definition ,to the left and at the same time, explore the solution space. In either direction, i.e. we can start with a design idea and see how this plays out with the use cases.  
+Practical examples of the prompt copy can be seen in the movie 'Official Competition' where a prompt copy plays a central role, and also in 'The Devil Wears Prada' where 'the book' are central to the story, being a work in progress of each new issue of 'Runway'-magazine.  
+How to make a prompt copy to work in practice in system development varies. It should to some extent be physical, i.e. printouts, preferrably in a binder but also arranged in a 'design thing', see below. It can also be digital and virtual, e.g. a Word/LibreOffice document in landscape format, and with templates, or Visio/draw.io or a spreadsheet document.  
+How to work with the prompt copy is equally important. It's central role, an ever growing artefact with a wide variety of content, not only text, models but also photos, material samples, links and references.  
+
+# The next approach - The Design Thing
+<descriptive> This is the concept from the book 'Design Thing' by A.Telier, pseudonym for Stolterman et al.  
+Describe how the physical space is fundamental for helping out with the complex work of discovery in a digital production. Users and team can get a spatial, visual experience. Users and team have a place where discovery takes place cooperationg.  
+Inspiration comes mainly from fashion studios mainly because of it covering everytning from skecthes to material supplies and store rooms, and prototype production with sewing machines, and a stage area where users can interact with prototypes showcased on a model.  
+The prompt copy is an integral part. The overall design thing also consists of physical space, horisontal for work and vertical for radiation and building knowledge together.  
+
+
 
 # Practical details
 We build upon existing tools and methods, such as Edgy, from Intersections. 
