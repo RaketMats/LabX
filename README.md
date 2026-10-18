@@ -7,21 +7,31 @@ In the documentary 'Making of: Der Ring des Nibelungen' director Stefan Herheim 
 In the system development industry it is often tempting to have a too narrow approach to development. Often works starts with just writing a specification, understanding problme might vary and the specification is often good at technical, functional aspects but lack in why, or for who and what do they want. Or, sometimes a methodology is the approach, such as SAFE or TOGAF or more narrowly/fuzzy 'an agile approach'. Or sometimes a model langugage is the approach such as Archimate or Edgy. Most mature methods and methodologies have the capability to capture both 'the right product' and 'product right' but they are often regardes as a template or framework that needs experience and skill, and regardless, they are always very hard to getting to work fully in a practical project, depending on problem domain, business models, team dynamics and to some extent technical platform.  
 So, what we aim to do here is to build upono experience from drama productions using concepts such as how to think in stage plays, dialogue, and practical concepts such as 'the prompt copy' inspiring how to emphasize traditional system development work such as user understanding and user journeys, a more generic way of framing problems, judgement instead of true/false. Again, this is both for widening the scope but also limiting the scope, again stageplay with it's limited set of space, the stage and its actors, but also the concept of 'a movie is not finished until viewed, by an audience, in a cinema', Agneszieska Holland. I.e. a digital product is not finished until used by it's users.  
 
+# Disclaimer
+The mindsets, methods and tools described here are nothing new. We do not aim to replace or present anything new. There are already more than enough different development models, frameworks and model languages. We are instead agnostic, what is presented here can be used with UML, Archimate or any other model language or in SAFE, TOGAF or any other methodology and using Zachman, Sundblad or any other framework. We howeve suggest using Edgy as a model langauge including its predecessor EDF and we recommend a mix of agile and design driven methodologies.
+
+
 # The first approach - The Cadence from User to Implementation
 <descriptive> Here the approach is the cadence and basic concept of use cases, corresponding features (architectural form) realised in systems and products(architectural structure) and existing within an business of balanced revenue and cost and an organisational belonging. Basically Sundblad Business and Functional Services and Coplain and the ABCDesEnt-pattern, i.e. thinking in capabilities with clear interfaces. Design problem here is to explain this to that readers understand.  
+
+# The next approach - The Indigo Model and Problem vs Solutions Space
+<descriptive> This is about the fact that problems work is a work of its own. Understanding and defining the problem is absolutely fundamental. But, problems cannot be fully understood until the product is ready, and the product is ready when it is used by users.  
+The Indigo model is just a way of visualizing and clarifying that working on a prolbem, understanding, defining and make sure it is presentable and understandable by team, users, stakeholders is equally important. It also states that the solution space is the same as the problem space, it is only a different vantage point. So what Indigo says is that defining a problem can be thorugh building a prototype, or that sometimes, a well formed problem definition does not require a prototype. 
+(tbd with what is already written about the Indigo here)  
+
 
 # The next approach - Reality, Impression and a Design Model
 <descriptive> It is also about Cool-method with the thesis that Archimate or Edgy is not possible to understand for domain users. Instead, describe on users premise and capture with 'overlays' etc. Design problem again, how to explain to readers.
 
-# The next approach - Snowman and a conceptual view of governing and capabilities.
+# The next approach - Snowman and a conceptual view of governing vs self organize and with bearing on capabilities.
 <descriptive> How to explain to readers. Form and content.
 
-# The next approach - The Conceptual Plastic Heap
+# The next approach - The Conceptual Plastic Heap, about the Anatomy of a Digital Product
 <decriptive> Another take on ABCDesEnt-pattenr but more user friendly. Explain how usage trickles down to practical implementation of e.g. a button or text box. What happens when un-aligned. What happens when skewed.  
 Also, about re-framings and frameworks.  
 Design problem again, how to present understandable for readers.  
 
-# The next approach - The Prompt Copy
+# The next approach - The Prompt Copy as THE central artefact, for a Design Way of Working
 In drama production the concept of a 'prompt copy' aka 'the book' is fundamental. Practically it is a binder, often in landscape format, with the script, including actors and brief descriptions of a scene, and on the right, descrptions of how this scene, this dialogue is to be 'gestalted'. It can be how actors move on a stage, props, ligthing, scenery details, shooting ideas etc.  
 In system developments this is both a requirements and a design specifications, and on steroids. Here we can start out with formal requirements or use-cases to the left but to the right, add whatever needed to clarify, further specify.  
 And, whereas in a drama production, the script is given and more or less fixed, in system developments we normally just have contours, a rough idea of buisness idea and users and what they want. This is therefore the main artefact for a design driven approach. The concept of loose leafs in a binder, naturlaly this can be a digital version, makes it possible to start with what we got and then elaborate, both filling in the use cases, or actually the problem definition ,to the left and at the same time, explore the solution space. In either direction, i.e. we can start with a design idea and see how this plays out with the use cases.  
@@ -29,19 +39,25 @@ Practical examples of the prompt copy can be seen in the movie 'Official Competi
 How to make a prompt copy to work in practice in system development varies. It should to some extent be physical, i.e. printouts, preferrably in a binder but also arranged in a 'design thing', see below. It can also be digital and virtual, e.g. a Word/LibreOffice document in landscape format, and with templates, or Visio/draw.io or a spreadsheet document.  
 How to work with the prompt copy is equally important. It's central role, an ever growing artefact with a wide variety of content, not only text, models but also photos, material samples, links and references.  
 
-# The next approach - The Design Thing
+# The next approach - The Design Thing, Shaping the Place for a Design Situation
 <descriptive> This is the concept from the book 'Design Thing' by A.Telier, pseudonym for Stolterman et al.  
 Describe how the physical space is fundamental for helping out with the complex work of discovery in a digital production. Users and team can get a spatial, visual experience. Users and team have a place where discovery takes place cooperationg.  
 Inspiration comes mainly from fashion studios mainly because of it covering everytning from skecthes to material supplies and store rooms, and prototype production with sewing machines, and a stage area where users can interact with prototypes showcased on a model.  
 The prompt copy is an integral part. The overall design thing also consists of physical space, horisontal for work and vertical for radiation and building knowledge together.  
 
-# The next approach - the Flipped Perspective
+# The next approach - the Flipped Perspective and Leading by Follow instead of Directing
 <descriptive> Describe the design approach of not planning ahead, instead flipping the perspective and continously judge according to Helpers and Tools, such as 'the Yardstick' and 'the Touchstone'.  
 An important concept here is a clear distinction that separates project work from design work.  
 
 
-# The next approach - the Overlays
+# The next approach - the Overlays and How to bridge Users Language and Understanding with Systems Development ways of communicating
 <descriptive> Describe the approach of always start and always have in focus, the user and the domain perspective, one form is 'Reality' in Cool. Keep this and behind the scenes, add the designer perspective via 'Overlays' and again, different tools 'the Yardstick' and 'the Touchstone' and different architectural patterns and templates. The basic artefact can be a snapshot from users domain, or a short video clip, or an existing product, or a more formal model. But, underneath and behind the scenes tehre is another representation with all the architectural, system development approaches, e.g. an ABCDesEnt-pattern.  
+
+# The next approach - Capabilities and a Bridge between Business Domain and Systems Domain
+Capabilities is so far placed last in this list, but it should actually be in the center. Capabilities is a kind of bridge, and focal point between the business and the problem domain, and systems development and solutions domain.  
+<descriptive>
+The ABCDEsEnt architectural pattern is the fundamental pattern and tool. It comprises ideas from Sundblad, from Coplien and is firmly based on classical OOP. It goes all the way down to the bare metal, illustrating how high level business and problem domain things are realised e.g. via abstract base classes, operation overloading and polymorphism et al.   
+It realises and makes tangible what a capability is. A capability in our view is OOP on Problem and Business domain. It can show how a policy, or high level organisational detail is realised in code. It can also illustrate how a business problem such as 'Information owner that shall put our information in an e-archive must make it consumable via a conceptual presnetation of what the information were in the first place, even though the original businsess system and workflows and users are long gone'. It does this via use cases and features and e.g. where a certain piece of information lands in a certain XML-tag within a SIPS(e-archive) file.  
 
 
 # Practical details
