@@ -7,45 +7,89 @@ Mermaid syntax explained here: https://mermaid.ai/open-source/syntax/usecase.htm
 Mermaid editor: www.mermaideditor.io
 
 
-# Model
-```mermaid
-
-classDiagram
-  class Customer {
-    +String name
-    +String email
-  }
-  class Order {
-    +String id
-    +Date placedAt
-    +total() Money
-  }
-  class LineItem {
-    +int quantity
-  }
-  class Payment {
-    <<interface>>
-    +authorise() bool
-  }
-  Customer "1" --> "*" Order : places
-  Order "1" *-- "*" LineItem : contains
-  Order --> Payment : settled by
-
-```
-
+# Overview Model
 # Another model
 ```mermaid
 flowchart LR
-    A[Write] --> B[Preview] --> C[Publish]
+    Context[govern] --> UseCase[action] --> Capability[Publish]
+```
+```mermaid
+flowchart LR
+    UseCase[action] --> Capability[provide]
+```
+```mermaid
+flowchart LR
+    BusinessModel[reconciliate] --> Product[implement]
 ```
 
-# And another model
+```mermaid
+
+classDiagram
+  
+  direction TB
+
+  class Context {
+    +String organisation
+    +String governance
+  }
+
+  Context <|-- UseCase
+  Context <|-- Capability
+  Context <|-- Product
+  Context <|-- BusinessModel
+
+```
+
+```mermaid
+classDiagram
+
+  direction LR
+
+  class UseCase {
+    +String user
+    +String outcome
+  }
+  class Capability {
+    <<architectural form>>
+    +String process
+    +String asset
+    +String employee
+    +impact() action
+  }
+
+  UseCase "1" --> "1" Capability : realises
+
+```
+
+```mermaid
+
+  classDiagram
+  direction LR
+
+  class Product {
+    <<architectural structure>>
+    +string system
+    +string employee
+  }
+  class BusinessModel {
+    +int income
+    +int cost
+    +revenue() balance 
+  }
+  Product "1" --> "1" BusinessModel
+
+```
+
+
+# Use Cases
 ```mermaid
 usecase-beta
 direction LR
+
 actor Customer("Customer")
-systemBoundary "Order system"
-  Checkout("Place order")
+systemBoundary "Capability"
+  Checkout("Outcome")
 end
 Customer --> Checkout
+
 ```
