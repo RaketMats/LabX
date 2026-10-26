@@ -25,6 +25,11 @@ There are also three main perspectives based upon users.
 - Then it is the architecture and design which takes another form, more formal and putting 'overlays' on the end user view.
 - Then it is the even more formal, development model, used to build things.  
 
-Then there is also the design way of discovery following the Pigalle-pattern and which both defines the problem and possible solutoins, working via judgmenets and evaluating to either being finished, or persevere or pivot.  
+There is a strong adherence to separation of concern. The models presented here are not templates to be filled in. There shall be such models, in e.g. Visio and drawio format. But what is presented here is instead templates, moldes, and tools like rulers to measure the work against. 
 
 And alstly it is the design thing, the physical representation of the design situation with vertical and horisontal surfaces where different users, team and stakeholders together have a rich environment with creative density.  
+
+## Discovery way of working
+Then there is also the design way of discovery following the Pigalle-pattern and which both defines the problem and possible solutoins, working via judgmenets and evaluating to either being finished, or persevere or pivot.  
+This work therefore involves understanding what the problem really is and how to validate that there is a valid understanding and representation of the problem, which involves how it is formulated, format and presentation and availability. All these aspects regarding the different user groups, users, team, developers, stakeholders.  
+
