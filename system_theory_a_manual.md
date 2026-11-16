@@ -1,6 +1,7 @@
 # Systemteori Systemdesign - Design av Digitala Produkter - En kortfattad manual
 ## tl;dr
-Detta är en kortfattad manual som beskriver hur designarbetet kring Utökat Bevarnade har bedrivits. Detat kan sedan ingå som manual även för Förvaltningsfasen.  
+Detta är en kortfattad manual som beskriver hur en hel verksamhet kan ses utifrån ett objektorietnerat synsätt och hur det därför kan designas genom att tillämpa systemteoretiska principer, utfört som objektorienrade system, på alla nivåer, styrning, organisation, behov, funktionalitet och hur systemutveckling/sysdev, utfört enligt OOP, kan knytas ihop hela vägen upp på detta sätt.  
+
 ## Grunden
 I grunden handlar alltså designarbete om att fånga behov och realisera lösningar. När det gäller design av digitala produkter så behöver detta ske utifrån ett helhetsperspektiv, där alla olika aspekter är likvärdiga. Ett sätt är att följa arkitekturmönstret ‘ABCDesEnt’(lägg till länk t /dpdp eller internt?) som beskriver en ‘affärsförmåga’(eng. ‘Business Capability’).  
 Alltså, produkten finns i ett sammanhang av användare, use case, produkten som levererar funktionaliteten som möter behovet, medarbetare som följer arbetssätt för att leverera funktionen, organisation och governance runt det som levereras, samt intäkter, kostnader inkl säljkanaler.  
@@ -52,6 +53,17 @@ Börja bryta isär, hitta de stora delarna. Gör en ansats och gör sedan examen
 
 Erfarenhetsmässigt är det nästan alltid så att det finns vissa subsystem som flyter upp i konversationen, i detta projetk har det varit Lastbryggan och Konvertera. Adnra återkommande har varit Extract samt Orkestrergingt av helhheten. Dessa är bra ingångar, resten faller ut i form av ‘anti space’(fel uttyrck kmomer inte på vad det heter nu, alltså whitespace som ger en kontrasterande kontur mot det vi vet. 
 
+# Om kadensen
+För att ta sig igenom en 'enterprise capability' så var Zachman tidigt ute med att se en verksamhet som en ontologi, alltså att kunna namnge och föra en konversation kring vad som bygger upp en verksamhet. Något som Sundblad & Sundblad sedan gjort mera arbetsbart.    
+Detta används sedan av arkitektur jämte andra arbeten kring en verksamhets egenskaper, vilket Zachman beror men andra utvecklat.  
+Detta gär att när man tar sig från de översta lagren, som nytta, mål, governance, organisation hela vägen ner till produkter och system och kod, så finns en given form av olika lager och aspekter.  
+Att ta sig genom dessa på ett säkerställt sätt, så att allt hänger samman, är arbetsbart, att rätt frågor ställs kan ses som 'en cadence', en väg genom kartan som beskriver verksamheten.  
+Exempel på detta är '7 Core Maps' från Intersections (tbd länk t webinar) eller principerna om 'Viability, Feasability, Usability' men det finns många andra.  
+
+## Om framings
+Framings innebär en variant av att adressera hur man tar sig igenom kadensen och utgår ifrån att man sätter upp ett visst perspektiv. Detta kallas också 'viewpoint'. Det kan t.ex vara 'hur säkerställer vi juridiskt att en informationsägare kan lämna ifrån sig ett dokument för konvertering'. Det kan också vara icke funktionella krav kring prestanda eller säkerhet.  
+
+
 # Om Konversationen
 Det talas emellanåt om ‘Rosettastenen’ som ett sätt att överbrygga kommunikationssvårigheter i verksamhetsutveckling. Det är åt rätt håll, att erkänna problemet med kommunikation men risken är att det blir en för grund modell. Konversationer har inte bara med språk att göra. För att ta Rosettasteen som exempel så var ett av de tre spårken ‘klassisk grekiska’. Det finns dels varianter av klassisk grekiska, som t.ex Koine men framför allt är orden, som vi ofta refererar till när vi tänker i en Rosettasten, allt utan särskilt i grekiskan är verbformer och substantivbestämningar och inte minst kulturen runt, varöfr man hade t.ex ‘aorist’ av avgörande betydelse. Det är alltså något mer som behövs även om att ha samma termer en bra början. Ett annat bra exempel är konceptet kring ‘lingua franca’ som även det är något mer än bara orden och ett annat koncept än Rosettastenen. ytterligare ett bra exempel är ‘Mandarin’ som både är ett språk och ett helt skikt av intressenter, i våra dagars verksamheter närmast beställare, middle management och som har mycket gemensamt med det kinesiska konceptet, om b.la meritokrati som ofta slår över i en ‘hiearchial’ eller ‘pathological’ organisationstyp (efter Westrum). 
 
@@ -92,7 +104,13 @@ På det här viset kan vi alltså skapa flera sådana här förenklade vyer, men
 När vi sedan skapar flera sådana här del-konversationer genom att t.ex lägga till Lastbryggan kan vi också börja tala om ytterligare en designprincip, ‘low coupling’ vilket har med både mera teknisk design och ‘mental models’ att ögra, och ‘idempotency’ vilket innebär förutsägbarhet och kända state. Ännu en nivå på konversation.  
 Det som behövs är alltså också ett sammanhang som visar hur den del vi valt, ingår i en hel värdekedja, för dokumenthantering kan det t.ex forstätta med publicering och uppåt, eftersom 'enterprise capabilities' också omfattar governance så är även detta viktigt att ha med. Denna sammanhangsbild kan då återigen utföras mcyket enkelt, bara som konturer, detaljer kring vad behöver inte finnas med utan bara 'att governance finns med' och i bilden ovan symboliseras detta av att ABCDesEnt-mönstret har med governance som de gula och gröna elementen(i Edgy) men här bara som små symboler.  
 
-## Utforskande
+# Down to the metal
+Design av digitala produkter omfattar alltså hela verksamheten och detta modelleras i form av Enterprise Capabilites enligt systemteoretiska och objektorienterade principer. När digitala produkter skall realiseras hamnar man till slut i någon form av systemutveckling och här beskriver vi därför hur hela vägen, från begrepp och företeelser på hög nivå, som verksamhetens nytta och mål, governance och organisation via användare, behov och funktionalitet som levereras av ett team och dessa medarbetare.  
+Här förljer därför exempel på hur objektorienterade system faktiskt ser ut, i form av c++.
+
+<tbd exempel här, men skall nog läggas som ref isf löpande text som blir för svåröverskådligt?>
+
+# Utforskande
 Arbetet behöver utföras utforskande. Dvs konversationerna får en tydlig beskrivning och ansatser som hela tiden provas praktiskt. Lösningar ger mer information om behovet, så den följer ‘Indigo-principen’.  
 Läs mer om det i 'way of working, a manual'.
  
@@ -106,3 +124,12 @@ Man talar ofta om affärsförmågor, 'Business Engineering with Object Technolog
 - Viewpoint - Detta är ett perspektiv, ett sätt att betrakta, eller att fokusera ifrån när man betraktar en affärsförmåga och har en konversation kring den. Normalt utgår man från ‘element’.  
 - Cohesion - Sammanhållenhet hos ett delsystem eller delsystem. Hög cohesion innebär att en singulär funktion utförs. Detta utifårn designprincipen om ‘Separation of concern’.  
 - Framing - En specifik frågeställning utifrån egenskaper.  
+
+# Referenser
+- 'Domain Driven Design'(Evans) Denna bok kan sägas börja lägga grunden för'Enterprise Capabilities', genom att beskriva hur man modellerar en verksamhet enligt OOP.
+- 'Business Engineering with Object Technology'(Taylor) Denna bok har faktiskt en helhet kring hur man tänker sig en hel verksamhet utifrån ett objektorienterat sätt.  
+- Intersections(Guenther) Denna bok beskriver även ramverket EDF och som sedan blivit ramverket Edgy. Den beskriver främst ontologin för att beskriva en 'enterprise capability' om än inte så mkt kring metodiker.
+- 'Lean Architecture'(Coplien) Tillsammans med DCI-konceptet(Renskjaug) och Sundblad en helt avgörande text för att förstå hur man realiserar objektorienterade enterprise capabilities.
+- 'Sundblad & Sundblad' tbd länk här till läsbart material.
+- OOUX. Detta är en metodologi som bryggar över designspåret mot objektorientering.  
+
