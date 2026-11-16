@@ -1,11 +1,15 @@
 # todo
 Behvöer strukturera om:
-- Inled med att man måste göra en typ 'scan' och bedöma om det problem man står inför, är komplext, och om det handlar om en verksamhetsförändring o isåfall måste man se det som 'enterpreise capability' alltså alla de aspekte rsom aBCDEsEnt har och då även ha med systemteori eftersom det är ett komplext probelem. Och slutligen om det ifnns inslag av digitala produtker, så måste man ha med hur dessa designas som en del av enterprise capability, OOP, systemteori också.  
+- Inled med att man måste göra en typ 'scan' och bedöma om det problem man står inför, är komplext, och om det handlar om en verksamhetsförändring o isåfall måste man se det som 'enterpreise capability' alltså alla de aspekte rsom aBCDEsEnt har och då även ha med systemteori eftersom det är ett komplext probelem. Och slutligen om det ifnns inslag av digitala produtker, så måste man ha med hur dessa designas som en del av enterprise capability, OOP, systemteori också. 
+   - Det är idag vanligt att utgå ifrån 'processorienterad kartläggning' och det kan vara good enough, men att ha enterprise capabilities istället, är i de flesta fall förmodligen både en styrka och en fördel.
+   - Processorientering innebär också, by design, att man tänker sekventiellt. Verksamheter och organisationer, fungerar dock inte sekventiellt utom i mycket enkla fall. Istället utgör de system och måste behandlas som system och här kommer systemteori in som nödvändig kompetens.
+   - Processanalys, inkl om man vidgar till 'Enterprise Capabilities' o analyserar utifårn det, handlar alltså om just analysfasen. Nästa fas är att föreslå lösningar, ansatser och där, eftersom det alltså är komplexa system som kräver helhet och systemteori - behöver därför en objektorienterad approachering. OOP gäller inte enbart de tekniska lagren, system, applikationer, produkter, utan i högsta grad, som b.la Coplien, Sundblad m.fl även verksamhet hela vägen upp till nytta, mål, organsiation m.m. 
+   - För att sammanfatta: Verksamheter innehåller ett antal olika delar och egenskaper som påverkar varandra. Från detta ges att man måste både ha sätt att hantera denna helhet och det systemiska samband som kräver systemtheory för att kunna hantera, komplexitet, feedback osv. Det andra är att verksamheter enligt ovan, med många olika delar, måste kunna beskrivas för att föra en konversation och här kommer OOP in, sätt att isolera, skapa funktionalitet avgränsad och som samverkar, i linje med systemteori som alltså realiseras genom OOP - så dessa hänger samman och måste finnas med, kompetens i någon form.  
+   
 - Därefter måste man börja med att ställa upp frågor i form av Pigallerna, dvs formulera ett behov, en ansats o lösning o lära sig Indigo way om problemet o lösningen samtidgit. osv.  
 - Detta måste drivas design way/o isolerat från porjekt(DPoM) genom 'the flipped' eller andra sätt, m pivots osv.  
-- Detta måste hållas samman via 'the prompot copy'.  
+- Detta måste hållas samman via 'the prompt copy'.  
 Alltså i den här ordningen...
-
 
 # tl;dr
 Denna manual beskriver hur utvecklingsarbetet bedrivs. Vilka principer som arbetet utgår ifrån och följer. Hur det utformas på ett arbetsbart sätt givet förutsättning, projekt, team, tjänst, arkitekturresurser, beställare, intressenter/användare och budget i tid och pengar. Hur designarbetet går till, alltså hur behov realiseras som funktionalitet utifrån perspektiv som användbarhet, styrning, organisation, arbetssätt, tekniska lösningar.
