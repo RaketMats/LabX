@@ -1,95 +1,35 @@
-# The ABCDesEnt Architectural Pattern
-This pattern is not primarily a template but rather a tool to measure, compare and judge work against, be it a use case, a process analysis or more elaborate design or architectural work.  
+# Capabilities and Enterprise Design
 
-# How it works
-tbd model here...
-Mermaid syntax explained here: https://mermaid.ai/open-source/syntax/usecase.html
-Mermaid editor: www.mermaideditor.io
+![alt text](_images/overall_ABCDesEnt.png)
 
+This is the overall model of the capability pattern, on enterprise design level.  
+It builds upon the ideas behind recursive organisations, upon DCI from Coplain and 'Capability Services' from Sundblad and on OOP with abstract base classes, polymorphism et al.  
 
-# Overview Model
-# Another model
-```mermaid
-flowchart LR
-    Context[govern] --> UseCase[action] --> Capability[Publish]
-```
-```mermaid
-flowchart LR
-    UseCase[action] --> Capability[provide]
-```
-```mermaid
-flowchart LR
-    BusinessModel[reconciliate] --> Product[implement]
-```
+## How to use
+This model is too complex to realise different views with. Instead workable models are simplified while still containing the overall picture. E.g. when descrbining use cases, this is in focus and architectural form and structure are simplified.  Combos can also be portaied e.g. via showing a use case and how it corresponds to a feature in the business capablity.  
+The recursive natuare can also be in focus, thus showin e.g. governance from organsational down to architectural strucutre, but omitting details.
 
-```mermaid
+## Framings
+Framings are used to view the overall model from different perspecitves, such as feasability, usability or from business or technical.
 
-classDiagram
-  
-  direction TB
+## Design thinking
+Design thinking can be modleed e.g via combined perspecive whre both the problem is worked on andd defined, and solution also worked on and defined. And also probe/sense by 
 
-  class Context {
-    +String organisation
-    +String governance
-  }
+# Overall Pattern
+![alt text](_images/overall_Pattern.png)
 
-  Context <|-- UseCase
-  Context <|-- Capability
-  Context <|-- Product
-  Context <|-- BusinessModel
+Above is the overall pattern and that shows how to use.  
+Besides focus on different parts, and the recursive nature.  
+There are also three main perspectives based upon users.
+- First it is the end user representation of their reality. On end users terms and way of viewing things. This can be in form of collage, drawings, pictures and video clips, text.
+- Then it is the architecture and design which takes another form, more formal and putting 'overlays' on the end user view.
+- Then it is the even more formal, development model, used to build things.  
 
-```
+There is a strong adherence to separation of concern. The models presented here are not templates to be filled in. There shall be such models, in e.g. Visio and drawio format. But what is presented here is instead templates, moldes, and tools like rulers to measure the work against. 
 
-```mermaid
-classDiagram
+And alstly it is the design thing, the physical representation of the design situation with vertical and horisontal surfaces where different users, team and stakeholders together have a rich environment with creative density.  
 
-  direction LR
+## Discovery way of working
+Then there is also the design way of discovery following the Pigalle-pattern and which both defines the problem and possible solutoins, working via judgmenets and evaluating to either being finished, or persevere or pivot.  
+This work therefore involves understanding what the problem really is and how to validate that there is a valid understanding and representation of the problem, which involves how it is formulated, format and presentation and availability. All these aspects regarding the different user groups, users, team, developers, stakeholders.  
 
-  class UseCase {
-    +String user
-    +String outcome
-  }
-  class Capability {
-    <<architectural form>>
-    +String process
-    +String asset
-    +String employee
-    +impact() action
-  }
-
-  UseCase "1" --> "1" Capability : realises
-
-```
-
-```mermaid
-
-  classDiagram
-  direction LR
-
-  class Product {
-    <<architectural structure>>
-    +string system
-    +string employee
-  }
-  class BusinessModel {
-    +int income
-    +int cost
-    +revenue() balance 
-  }
-  Product "1" --> "1" BusinessModel
-
-```
-
-
-# Use Cases
-```mermaid
-usecase-beta
-direction LR
-
-actor Customer("Customer")
-systemBoundary "Capability"
-  Checkout("Outcome")
-end
-Customer --> Checkout
-
-```
