@@ -49,7 +49,7 @@ Sedan behövs en slags ordnad metodik men denna skall hållas enkel och som sepa
 
 En övergrpande modell som visar systemgränser och vad som finns u tanför
 
-Börja bryta isär, hitta de stora delarna. Gör en ansats och gör sedan examen. Inte analys o förstå allt utan bygg ngt praktistk o prova på de som vet, verksamheten, använd deras språk och gör påtryck för eget bruk.
+Börja de-composition/chunking, hitta de stora delarna. Gör en ansats och gör sedan examen. Inte analys o förstå allt utan bygg ngt praktistk o prova på de som vet, verksamheten, använd deras språk och gör påtryck för eget bruk.
 
 Erfarenhetsmässigt är det nästan alltid så att det finns vissa subsystem som flyter upp i konversationen, i detta projetk har det varit Lastbryggan och Konvertera. Adnra återkommande har varit Extract samt Orkestrergingt av helhheten. Dessa är bra ingångar, resten faller ut i form av ‘anti space’(fel uttyrck kmomer inte på vad det heter nu, alltså whitespace som ger en kontrasterande kontur mot det vi vet. 
 
@@ -83,11 +83,20 @@ Tidigt i projektet görs alltså (har nog missat att visa detta i systemteori ov
 
 Från Stadsplanen behöver man detaljera för att förstå mer, från det översiktliga flödet och användandet, hur just denna speficika affärsförmåga behöver etableras, givet de olika ingående aspekterna. Två sådana förmågor kommer i vårt exempel tidigt upp och fiktivt i vårt team har dessa hela tiden också varit föremål för konversationen inom teamet, mot hur andra gör, kring behov hos kunder. Dessa är ‘Hur tar vi emot ett dokument för hantering', detta har med juridiskt överlämnande, en verksamhet har tagit fram, skall information/dokument hanteras av en separat affärsenhet har detta med b.la juridiska aspekter att göra. Det andra är ‘Hur hanterar vi ett dokument' dvs i första hand, lägg till metadata o i andra hand kan konvertering behövas. Båda dessa ingår inom det projekt vi scopat in. 
 
-## Designprincip - Nedbrytning och 'Cohesion'
+## Designprincip - Decomposition/Chunking och 'Cohesion'
 ![alt text](_images/261116a.png)
 (Bilden är pixlad pga avidentifiering, ny bild kommer)
 
-Detta illustrerar den första designprincipen från systemteori. Att man bryter ner stora problem till mindre delar. Dessa delar behöver då följa någonslags princip och den fundamentala designprincipen är den om ‘High Cohesion’. Detta innebär att man tar ett större komplext system och delar upp det i delar ‘som utför en avgränsad funktion’ eller ‘utgör ett naturlig delsystem’. Vad detta är beror på de olika aspekter som vi väljer att beskriva systemet utifrån. I vårt fall är det affärsförmågan med Användare och behov, Funktionalitet osh sätt att leverera detta, Teknisk lösning, Styrning, Organisation och Affärsmodell. I det här fallet väljer vi att utgå från ‘Användare och deras behov’ eftersom det följer ännu en princip inom systemteori, den om stabilitet. Det mest stabila i ett system är dess information och det näst mest stabila är dess användande & syfte. Detta är den skärning vi använder, men vi kunde givetvis använt vilken annan som helst, t.ex Organisation eller Affärsmodell, men som vi skall se senare, det är bättre, för att reducera antalet konversationer och modeller/underlag, tar vi affären som en ‘Framing’, inte ett ‘Perspektiv’.  
+Detta illustrerar de två första designprinciperna från systemteori:
+- 'Decomposition' innebär att större komplexa system hanteras i mindre delar.
+- 'Partitioning'. Dessa delar behöver då följa någonslags princip i hur man väljer dessa mindre delar, man kan dela upp utifrån vilken aspekt eller framing som helst, kronologisk, tematisk osv.
+- 'Cohesion' är dock det sätt som systemteori förespråkar. Alltså man partitionerar sitt system utifrån 'sammanhållen funktionalitet' eller 'del som utför en avgränsad funktion’ eller i viss mån ‘utgör ett naturlig delsystem’. Låg 'cohesion' innebär att delsystemet utför flera saker eller är spritt på flera andra delsystem. High cohesion är tvärtom, och det man eftersträvar.   
+
+Vilka dessa funktioner är beror på de olika aspekter som vi väljer att beskriva systemet utifrån. I vårt fall är det affärsförmågan med Användare och behov, Funktionalitet osh sätt att leverera detta, Teknisk lösning, Styrning, Organisation och Affärsmodell. I det här fallet väljer vi att utgå från ‘Användare och deras behov’ eftersom det följer ännu en princip inom systemteori, den om stabilitet. Det mest stabila i ett system är dess information och det näst mest stabila är dess användande & syfte. Detta är den skärning vi använder, men vi kunde givetvis använt vilken annan som helst, t.ex Organisation eller Affärsmodell, men som vi skall se senare, det är bättre, för att reducera antalet konversationer och modeller/underlag, tar vi affären som en ‘Framing’, inte ett ‘Perspektiv’.  
+
+Referenser:  
+- 'Chunking'(se 'Business Engineering with Object Technology' kap 'Managing scale' page 25)
+- 'Partitioning' (se 'Lean Architecture' kap 5.2)
 
 ## En första förenkling
 ![alt text](_images/261116b.png)
