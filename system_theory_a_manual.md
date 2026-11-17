@@ -2,6 +2,8 @@
 ## tl;dr
 Detta är en kortfattad manual som beskriver hur en hel verksamhet kan ses utifrån ett objektorietnerat synsätt och hur det därför kan designas genom att tillämpa systemteoretiska principer, utfört som objektorienrade system, på alla nivåer, styrning, organisation, behov, funktionalitet och hur systemutveckling/sysdev, utfört enligt OOP, kan knytas ihop hela vägen upp på detta sätt.  
 
+todo term negative space...
+
 ## Grunden
 I grunden handlar alltså designarbete om att fånga behov och realisera lösningar. När det gäller design av digitala produkter så behöver detta ske utifrån ett helhetsperspektiv, där alla olika aspekter är likvärdiga. Ett sätt är att följa arkitekturmönstret ‘ABCDesEnt’(lägg till länk t /dpdp eller internt?) som beskriver en ‘affärsförmåga’(eng. ‘Business Capability’).  
 Alltså, produkten finns i ett sammanhang av användare, use case, produkten som levererar funktionaliteten som möter behovet, medarbetare som följer arbetssätt för att leverera funktionen, organisation och governance runt det som levereras, samt intäkter, kostnader inkl säljkanaler.  
@@ -126,6 +128,10 @@ Läs mer om det i 'way of working, a manual'.
  
 # Enterprise Capabilities
 Man talar ofta om affärsförmågor, 'Business Engineering with Object Technology'(David Taylor), men ett bättre sätt är att utgå från hela verksamheten, 'Enterprise Capabilities' och 'Enterprise Design'(Milan Guenther, Edgy, Intersections)
+
+# Build and Delivery
+In the end, the most important thing is to deliver something. This is about way of working and sometimes not.possoble. But some things are always possible to build and that should be aimed for, and that is models, mockups, prototypes and iterations of the product.
+Models are especially interesting because Lean Architecture(Coplien) states that 'the code is the best way to capture end user mental model'. This means that simple models, in code, not part of the product anyhow can be used to illustrate informstion, and object model that represents the domain, and 'what the system is'. This can be done in simple c++ code e.g.
 
 # Begrepp vi kommit i kontakt med så här långt
 - System och Delsystem - Används för att reducera komplexitet och föra en konversation av en sak i taget. System i sig följer också designprincipen om att dela upp och gör det i ‘element’ se nedan.  
