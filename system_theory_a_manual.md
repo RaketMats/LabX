@@ -37,6 +37,7 @@ Bra exempel:
 - ‘Business Engineeering with Object Technology’, David A Taylor. Praktisk design av verksamheter, utifrån konkreta, enkla diskussioner på nivån av avdelningar inom ett företag som vem som helst kan ta till sig, och ända ner till objektorienterad kod.
 
 - ‘Lean Architecture’, Jim Coplien. Återigen, en övergripande bild som vem som helst kan förstå och hela vägen ner till c++ och andra designmönster.
+  - här finns också flera exempel på praktiska partitions, b.la architectural form vs structure, 'what the system is vs what it does', and more.
 
 # Om arbetssätt
 Vi börjar med att formulera en fråga. Kan t-ex vara ‘vad har vi för begrepp, talar vi samma språk osv.’. Men metodiker o kurser lär ofta ut att ‘allt måste förstås’ och ‘sedan går vi neråt i modellen’ osv. Erfarenhet och designtänkadne visar ngt annat. Detta funkar sällan bra utan risk för analysis paralysis som är ett designteoretiskt anti-pattern/coding horror. 
@@ -96,7 +97,7 @@ Vilka dessa funktioner är beror på de olika aspekter som vi väljer att beskri
 
 Referenser:  
 - 'Chunking'(se 'Business Engineering with Object Technology' kap 'Managing scale' page 25)
-- 'Partitioning' (se 'Lean Architecture' kap 5.2)
+- 'Partitioning' (se 'Lean Architecture' kap 5.2 med en rad exempel på skärningar, 'what the system does vs is' m.fl.
 
 ## En första förenkling
 ![alt text](_images/261116b.png)
