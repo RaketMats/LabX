@@ -1,40 +1,51 @@
-# About
+# Under Development
+## Start Here
+Inspect/Observe. Where are we:  
+- Have we defined 'what do we need to learn'. <tbd link to tool that examines, judgements etc.>
+- Have we defined the domain. <tbd link to sub-page with tools, Analog helpers etc. that e.g. what are the domains, how are they built via business objects, is the usage in place etc.>  
+- Have we gone through all aspects on the domain model. <tbd link but e.g. is 'the Snowman' implemented etc.>
+
+
+# Old Structure
+Restructure below texts etc.
+
+## About
 Development of digital products in all flavours, be it small embedded products, simple websites or large scale distributed systems, is regardless something of the most complex endevours we can do. The result shows this. Sometimes a product is simply a success. Most often it is however not. The Gartner axiom of 70% failure rate in digital development seems stable over time and also their definition of what is a failure. It is seldom technical failures but more often regarding user or business outcome that is missed and to various degree.  
-John Cleese formulates the exact same thing in a behind the scenes interview on the DVD edition of 'Fawlty Towers' where is simply concludes that he had never found a formula that produces a tv-show or movie that becomes a success. Instead, what he relates regarding different productions where he had been involved, seems to correspond with digital products success, or failure, rate. The last example, as of October -26, of a monumental failure is the movie 'Digger' with an estimated economic loss of 100M dollar or more, but again where some critics states that it might become a future iconic movie.  
+John Cleese formulates the exact same thing in a behind the scenes interview on the DVD edition of 'Fawlty Towers' where it is simply concluded that he had never found a formula that produces a tv-show or movie that becomes a success. Instead, what he relates regarding different productions where he had been involved, seems to correspond with digital products success, or failure, rate. The last example, as of October -26, of a monumental failure is the movie 'Digger' with an estimated economic loss of 100M dollar or more, but again where some critics states that it might become a future iconic movie.  
 There however seems to be some common denominators, one being that failure can occur because of a wide variety of reasons, as we already touched upon, seldom the technical aspects such as bad sound or lighting, sometimes bad acting but more often unclear premises, inconsistencies, missed on what the market wanted and so on.  Again, eeirly similar to the failure of digital products.  
 So, even if there is no clear recipe for successful development within movie and drama productions there are however some interesting aspects worth examining to see whether it migt be possible to learn something, for development of digital products and the system or software development software industry. Mainly the overall, holistic kind of approach and essence of what dramatic productions, involving both movie/screenplays, theater/stageplays, opera and to some extent literature. One assumption is that all dramatic works is a kind of model of reality, people interacting in a society, in a physical world. From these all kind of conflicts arise, that is the basis for drama. In the same way, a digital product consists of the same, users interacting with each other, through a product, existing in a virtual and physical world to the benefit of society. The thesis is that this kind of model is useful for development of a product, since it mimics the real world where the product then shall provide some kind of improvement, which is one definition for design and innovation.  
 In the documentary 'Making of: Der Ring des Nibelungen' director Stefan Herheim describes how he approached Wagners epical opera with the initial approach of 'setting the coordinatas of the esthetics, then like building a house, start with the floor and when color is decided, brown, yellow, green, the next parts more easily falls into place'. This is about design thinking, a design way of working. Formulating a problem, trying out various solutions feedback into the problem and decide upon a solution that starts limiting both the problem and solution space so that the work actually produces, and here Herheim again touches upon someting important when he states that 'it is not about true', instead a design problem is more about 'the ideal' and 'becoming real' or 'getting the right product' whereas 'the true' aspects is about 'getting the product right' which is seldom a problem.  
 In the system development industry it is often tempting to have a too narrow approach to development. Often works starts with just writing a specification, understanding problme might vary and the specification is often good at technical, functional aspects but lack in why, or for who and what do they want. Or, sometimes a methodology is the approach, such as SAFE or TOGAF or more narrowly/fuzzy 'an agile approach'. Or sometimes a model langugage is the approach such as Archimate or Edgy. Most mature methods and methodologies have the capability to capture both 'the right product' and 'product right' but they are often regardes as a template or framework that needs experience and skill, and regardless, they are always very hard to getting to work fully in a practical project, depending on problem domain, business models, team dynamics and to some extent technical platform.  
 So, what we aim to do here is to build upono experience from drama productions using concepts such as how to think in stage plays, dialogue, and practical concepts such as 'the prompt copy' inspiring how to emphasize traditional system development work such as user understanding and user journeys, a more generic way of framing problems, judgement instead of true/false. Again, this is both for widening the scope but also limiting the scope, again stageplay with it's limited set of space, the stage and its actors, but also the concept of 'a movie is not finished until viewed, by an audience, in a cinema', Agneszieska Holland. I.e. a digital product is not finished until used by it's users.  
 
-# Disclaimer
+## Disclaimer
 The mindsets, methods and tools described here are nothing new. We do not aim to replace or present anything new. There are already more than enough different development models, frameworks and model languages. We are instead agnostic, what is presented here can be used with UML, Archimate or any other model language or in SAFE, TOGAF or any other methodology and using Zachman, Sundblad or any other framework. We howeve suggest using Edgy as a model langauge including its predecessor EDF and we recommend a mix of agile and design driven methodologies.
 
-# About Patterns
+## About Patterns
 The work presented here is heavily based upon 'patterns', originating form the work by Jason Alexander and within IT 'Design Patterns'(Gang of Four). This book, describes the form of a pattern with name, problem it solves, solution and consequences(chap 1.1), and this work adhere to the concept, if not strict down to the details and then there is also a short instruction how to use design patterns (chap 1.8) which this work also follows.
 In the book 'A System of Patterns'(Buschman et al) presents a concept that is also adhered to here, about self describing patterns, se p23 'Patterns vs Methods' and that pattern descriptions shall also include a guidelin, in the form of a 'micro method' which acts a kind of bridge toward more practical work than the 'problem independent' methods of mindsets, such as 'cohesion and coupling'. 
 
-# The first approach - The Cadence from User to Implementation
+## The first approach - The Cadence from User to Implementation
 <descriptive> Here the approach is the cadence and basic concept of use cases, corresponding features (architectural form) realised in systems and products(architectural structure) and existing within an business of balanced revenue and cost and an organisational belonging. Basically Sundblad Business and Functional Services and Coplain and the ABCDesEnt-pattern, i.e. thinking in capabilities with clear interfaces. Design problem here is to explain this to that readers understand.  
 
-# The next approach - The Indigo Model and Problem vs Solutions Space
+## The next approach - The Indigo Model and Problem vs Solutions Space
 <descriptive> This is about the fact that problems work is a work of its own. Understanding and defining the problem is absolutely fundamental. But, problems cannot be fully understood until the product is ready, and the product is ready when it is used by users.  
 The Indigo model is just a way of visualizing and clarifying that working on a prolbem, understanding, defining and make sure it is presentable and understandable by team, users, stakeholders is equally important. It also states that the solution space is the same as the problem space, it is only a different vantage point. So what Indigo says is that defining a problem can be thorugh building a prototype, or that sometimes, a well formed problem definition does not require a prototype. 
 (tbd with what is already written about the Indigo here)  
 
 
-# The next approach - Reality, Impression and a Design Model
+## The next approach - Reality, Impression and a Design Model
 <descriptive> It is also about Cool-method with the thesis that Archimate or Edgy is not possible to understand for domain users. Instead, describe on users premise and capture with 'overlays' etc. Design problem again, how to explain to readers.
 
-# The next approach - Snowman and a conceptual view of governing vs self organize and with bearing on capabilities.
+## The next approach - Snowman and a conceptual view of governing vs self organize and with bearing on capabilities.
 <descriptive> How to explain to readers. Form and content.
 
-# The next approach - The Conceptual Plastic Heap, about the Anatomy of a Digital Product
+## The next approach - The Conceptual Plastic Heap, about the Anatomy of a Digital Product
 <decriptive> Another take on ABCDesEnt-pattern but more user friendly. Explain how usage trickles down to practical implementation of e.g. a button or text box. What happens when un-aligned. What happens when skewed.  
 Also, about re-framings and frameworks.  
 Design problem again, how to present understandable for readers.  
 
-# The next approach - The Prompt Copy as THE central artefact, for a Design Way of Working
+## The next approach - The Prompt Copy as THE central artefact, for a Design Way of Working
 In drama production the concept of a 'prompt copy' aka 'the book' is fundamental. Practically it is a binder, often in landscape format, with the script, including actors and brief descriptions of a scene, and on the right, descrptions of how this scene, this dialogue is to be 'gestalted'. It can be how actors move on a stage, props, ligthing, scenery details, shooting ideas etc.  
 In system developments this is both a requirements and a design specifications, and on steroids. Here we can start out with formal requirements or use-cases to the left but to the right, add whatever needed to clarify, further specify.  
 And, whereas in a drama production, the script is given and more or less fixed, in system developments we normally just have contours, a rough idea of buisness idea and users and what they want. This is therefore the main artefact for a design driven approach. The concept of loose leafs in a binder, naturlaly this can be a digital version, makes it possible to start with what we got and then elaborate, both filling in the use cases, or actually the problem definition ,to the left and at the same time, explore the solution space. In either direction, i.e. we can start with a design idea and see how this plays out with the use cases.  
@@ -42,29 +53,29 @@ Practical examples of the prompt copy can be seen in the movie 'Official Competi
 How to make a prompt copy to work in practice in system development varies. It should to some extent be physical, i.e. printouts, preferrably in a binder but also arranged in a 'design thing', see below. It can also be digital and virtual, e.g. a Word/LibreOffice document in landscape format, and with templates, or Visio/draw.io or a spreadsheet document.  
 How to work with the prompt copy is equally important. It's central role, an ever growing artefact with a wide variety of content, not only text, models but also photos, material samples, links and references.  
 
-# The next approach - The Design Thing, Shaping the Place for a Design Situation
+## The next approach - The Design Thing, Shaping the Place for a Design Situation
 <descriptive> This is the concept from the book 'Design Thing' by A.Telier, pseudonym for Stolterman et al.  
 Describe how the physical space is fundamental for helping out with the complex work of discovery in a digital production. Users and team can get a spatial, visual experience. Users and team have a place where discovery takes place cooperationg.  
 Inspiration comes mainly from fashion studios mainly because of it covering everytning from skecthes to material supplies and store rooms, and prototype production with sewing machines, and a stage area where users can interact with prototypes showcased on a model.  
 The prompt copy is an integral part. The overall design thing also consists of physical space, horisontal for work and vertical for radiation and building knowledge together.  
 
-# The next approach - the Flipped Perspective and Leading by Follow instead of Directing
+## The next approach - the Flipped Perspective and Leading by Follow instead of Directing
 <descriptive> Describe the design approach of not planning ahead, instead flipping the perspective and continously judge according to Helpers and Tools, such as 'the Yardstick' and 'the Touchstone'.  
 An important concept here is a clear distinction that separates project work from design work.  
 
 
-# The next approach - the Overlays and How to bridge Users Language and Understanding with Systems Development ways of communicating
+## The next approach - the Overlays and How to bridge Users Language and Understanding with Systems Development ways of communicating
 <descriptive> Describe the approach of always start and always have in focus, the user and the domain perspective, one form is 'Reality' in Cool. Keep this and behind the scenes, add the designer perspective via 'Overlays' and again, different tools 'the Yardstick' and 'the Touchstone' and different architectural patterns and templates. The basic artefact can be a snapshot from users domain, or a short video clip, or an existing product, or a more formal model. But, underneath and behind the scenes tehre is another representation with all the architectural, system development approaches, e.g. an ABCDesEnt-pattern.  
 
-# The next approach - Capabilities and a Bridge between Business Domain and Systems Domain
+## The next approach - Capabilities and a Bridge between Business Domain and Systems Domain
 Capabilities is so far placed last in this list, but it should actually be in the center. Capabilities is a kind of bridge, and focal point between the business and the problem domain, and systems development and solutions domain.  
 
-# The next approach - The ABCDesEnt pattern
+## The next approach - The ABCDesEnt pattern
 <descriptive>
 The ABCDEsEnt architectural pattern is the fundamental pattern and tool. It comprises ideas from Sundblad, from Coplien and is firmly based on classical OOP. It goes all the way down to the bare metal, illustrating how high level business and problem domain things are realised e.g. via abstract base classes, operation overloading and polymorphism et al.   
 It realises and makes tangible what a capability is. A capability in our view is OOP on Problem and Business domain. It can show how a policy, or high level organisational detail is realised in code. It can also illustrate how a business problem such as 'Information owner that shall put our information in an e-archive must make it consumable via a conceptual presnetation of what the information were in the first place, even though the original businsess system and workflows and users are long gone'. It does this via use cases and features and e.g. where a certain piece of information lands in a certain XML-tag within a SIPS(e-archive) file.  
 
-# The next approach - The three standard perspectives on a model
+## The next approach - The three standard perspectives on a model
 Traditionellt arkitekturellt och designarbete inom digitala produkter, identifierar behovet av olika perspektiv. Inom arkitektur är en vanlig uppdelning en 'Informationsmodell', 'Verksamhetsmodell', 'Enterprisemodell', 'Teknisk implementation'. Design tillför 'Användaremodell', 'Användarresor' m.fl.  
 Alla dessa modeller är bra men det behövs ett annat perspektiv s.a.s ovanpå dessa olika perspektiv och det är 'Domänen och slutanvändare' som behöver se och använda sin verklighet, sina termer, hur de ers sina affärsproblem, 'Arkitektur och Design' som behöver en mera konceptuell, generell modell och 'Utveckling' som behöver en mera detaljerad modell återigen med sina termer.  
 Låt anta mätning av badtemperatur i en kommun. Det är en sensor som skickar i någon typ av binärt eller lågnivåprotokoll via trådlös IoT. I en backend lagras temperaturdata som skickats tillsammans m timestamp o location. Detta utgör en förståelig mängd av data, eller en 'Informationsmängd'. Den har ytterligare ett sammanhang genom vilken verksamhet, exempelvis 'Miljöförvaltningen' eller 'Idrottsförvaltningen' som tog emot o i vilket syfte denna information avses, alltså badtemp, inte för att mäta global uppvärmning, vilket d iofs också kan vara, eller kylvattenintaget t ett kärnkraftverk. Utifrån syfte finns också någonslags reglering, t.ex badtemp måste kanske kvalitetssäkras för att få publiceras till allmänheten, det kan exempelvis vara för att trigga en regel som varnar för otjängligt badvatten pga alger. Omvänt så kanske en helt annan verksamhet som odlar musslor använder denna info för sin kvalitetskontroll men detta är då utanför all kontroll, jurisdiktion osv.  
@@ -75,10 +86,10 @@ För arkitektur och design som driver arbetet, är det därför bra att börja m
 Alltså, koncepteuellt så kan en 'avbildning' byggas upp av strukturen enligt ABCDesEnt men det görs olika 'avbildning' för domänen o för arkitektur/dev. 
 Det finns en stor poäng med att kombinera dessa avbilddningar. T.ex vid bevarande så görs detta alltid i och med att en e-arkivarie skapar sig en förståelse av vad informationen var och hur den hanterades i en domäns, alltså synen på badtemperatur, men förstår lika väl en mera teknisk vy och att temperaturdata skall landa i en viss del av en filstruktur i ett arkiv, liksom arkivets manifest, den s.k. sip.xml-filen behöver populera vissa givna XML-tags med information om badtemperaturen som data, inkl organisatorisk och styrnings-mekanismer. Eller ett politiskt ärende hamnar i slutändan i ett konceptuellt sammanhang som 'ärendekort' o en <tag> i sip.xml'en. Dessa är två eller tre olika modeller, alla utifrån ABCDesent, en för domän, en för arkitektur, en för bevarande. Men de kan ses sida vid sida för att illustrera hur ett koncept 'tjänlig badtemperatur' blir förståelig när den finns i e-arkiv o konsumeras helt utanför ursprungligt verksystem, förvaltning osv. 
 
-# Practical details
+## Practical details
 We build upon existing tools and methods, such as Edgy, from Intersections. 
 See list and link of books in earlier repo, which is kept for reference, https://github.com/RaketMats/i  
 
-# License
+## License
 Content is licensed under CC-BY-SA-4.0
 Software (future) license is tbd.
